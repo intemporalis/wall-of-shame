@@ -10,7 +10,7 @@ How to reproduce:
 1) Setup a React framework (I used Vite React + TS + SWC): https://vitejs.dev/guide/
 2) Install dependencies: https://mui.com/material-ui/material-icons/
 3) Install+configure dynamic import plugin for Vite: https://github.com/vite-plugin/vite-plugin-dynamic-import
-4) Import then use a <Icon name="AccessAlarm" /> component inside your App.js/App.tsx
+4) Import then use a ```<Icon name="AccessAlarm" />``` component inside your App.js/App.tsx
 5) Let the show begin.
 
 Description: Icon.jsx/Icon.tsx import blows up because it is trying to reference a .jsx in runtime
