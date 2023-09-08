@@ -19,5 +19,5 @@ and related methods (i.e. require()) aren't able to be transpiled into valid bro
 
 Solution: Don't over-abstract components into generics to the point of evading transpile process
 
-If there's a way to dynamically import+instantiate through a generic that can caught and handled by the transpiler,
+If there's a way to dynamically import+instantiate through a generic that can be caught and handled by the transpiler,
 please let me know.
